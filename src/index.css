@@ -1068,11 +1068,17 @@ button {
   .header-nav {
     order: 3;
     width: 100%;
-    justify-content: center;
+    justify-content: flex-start;
     margin-top: 1rem;
-    gap: 1rem;
+    gap: 1.5rem;
     overflow-x: auto;
     padding-bottom: 0.5rem;
+    -webkit-overflow-scrolling: touch;
+  }
+  .nav-link {
+    white-space: nowrap;
+    flex-shrink: 0;
+    font-size: 0.85rem;
   }
   .header-search {
     order: 4;
