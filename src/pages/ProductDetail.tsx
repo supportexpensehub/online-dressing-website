@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { MOCK_PRODUCTS } from '../data/mockProducts';
 import { useCart } from '../context/CartContext';

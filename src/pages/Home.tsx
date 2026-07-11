@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { MOCK_PRODUCTS } from '../data/mockProducts';
 import ProductCard from '../components/ProductCard';
 
@@ -21,17 +21,17 @@ const Home = () => {
       <section className="category-section container">
         <h2 className="section-title">Shop By Category</h2>
         <div className="category-grid">
-          <div className="category-card" style={{ backgroundImage: "url('/images/saree.png')" }}>
+          <div className="category-card" style={{ backgroundImage: "url('./images/saree.png')" }}>
             <div className="category-card-content">
               <h3>Sarees</h3>
             </div>
           </div>
-          <div className="category-card" style={{ backgroundImage: "url('/images/dress.png')" }}>
+          <div className="category-card" style={{ backgroundImage: "url('./images/dress.png')" }}>
             <div className="category-card-content">
               <h3>Dresses</h3>
             </div>
           </div>
-          <div className="category-card" style={{ backgroundImage: "url('/images/kurta.png')" }}>
+          <div className="category-card" style={{ backgroundImage: "url('./images/kurta.png')" }}>
             <div className="category-card-content">
               <h3>Kurtas</h3>
             </div>

@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { MOCK_PRODUCTS } from '../data/mockProducts';
 import ProductCard from '../components/ProductCard';
