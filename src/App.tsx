@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { CartProvider } from './context/CartContext';
 import Header from './components/Header';
@@ -16,7 +16,7 @@ import './index.css';
 function App() {
   return (
     <CartProvider>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL}>
         <div>
           <Header />
           <main>
